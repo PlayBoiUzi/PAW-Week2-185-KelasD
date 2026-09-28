@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Halaman memiliki title -->
+    <title>UMKM Ketoprak Juara</title>
+</head>
+<body>
+   
+    <header>
+        <h1>UMKM Ketoprak Juara (Asisten AI)</h1>
+        <p>Sajian Tradisional, Cita Rasa Maksimal</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#hero">Beranda</a></li>
+            <li><a href="#layanan">Layanan</a></li>      
+        </ul>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <h2>Selamat Datang di Warung Ketoprak Kami</h2>
+            
+            <img src="image/ketoprak.jpg" alt="Sepiring ketoprak lezat dengan bumbu kacang, tahu, dan kerupuk" width="400">
+            
+            <p>Nikmati kelezatan ketoprak segar dengan bumbu kacang ulek asli yang dibuat langsung saat Anda memesan.</p>
+        </section>
+        <section id="layanan">
+            <h2>Layanan Kami</h2>
+            <ul>
+                <li><strong>Makan di Tempat:</strong> Nikmati ketoprak hangat langsung di warung kami dengan tempat yang bersih.</li>
+                <li><strong>Bawa Pulang (Takeaway):</strong> Beli untuk dinikmati bersama keluarga di rumah.</li>
+                <li><strong>Katering Acara:</strong> Kami menerima pesanan porsi besar untuk rapat, arisan, atau syukuran.</li>
+            </ul>
+        </section>
+
+        <article id="artikel">
+            <h2>Kunci Kelezatan Bumbu Kacang</h2>
+            <p>Banyak yang bertanya mengapa ketoprak kami memiliki rasa yang khas. Rahasianya ada pada proses pemanggangan kacang tanah sebelum dihaluskan, dipadukan dengan gula merah pilihan dan bawang putih segar. Proses tradisional ini menjaga aroma dan kekentalan bumbu yang akan membuat Anda ketagihan.</p>
+        </article>
+
+    
+        <section id="konsultasi">
+            <h2>Formulir Konsultasi Katering & Pesanan</h2>
+            <form action="#" method="POST">
+        
+                <div>
+                    <label for="nama_pelanggan">Nama Anda:</label>
+                    <input type="text" id="nama_pelanggan" name="nama_pelanggan" required>
+                </div>
+                <br>
+                <div>
+                    <label for="no_wa">Nomor WhatsApp:</label>
+                    <input type="text" id="no_wa" name="no_wa" required>
+                </div>
+                <br>
+                
+                
+                <fieldset>
+                    <legend>Jenis Pesanan Anda:</legend>
+                    <input type="radio" id="pribadi" name="jenis_pesanan" value="pribadi" required>
+                    <label for="pribadi">Pesanan Biasa</label><br>
+                    
+                    <input type="radio" id="acara_kecil" name="jenis_pesanan" value="acara_kecil">
+                    <label for="acara_kecil">Acara Kecil (Di bawah 50 porsi)</label><br>
+                    
+                    <input type="radio" id="acara_besar" name="jenis_pesanan" value="acara_besar">
+                    <label for="acara_besar">Acara Besar (Di atas 50 porsi)</label>
+                </fieldset>
+                <br>
+
+                <div>
+                    <button type="submit">Kirim Pesanan</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
